@@ -1,0 +1,26 @@
+[
+  {
+    "id": "msg-1794636896606",
+    "timestamp": "2026-11-14 11:44:56",
+    "type": "Direct Showcase Inquiry",
+    "name": "jiban",
+    "contact": "8282882",
+    "message": "hiiiii",
+    "status": "received",
+    "target_recipient": "Jiban Jyoti Roy (@creatmamn)",
+    "target_phone": "7363852502",
+    "target_email": "jibanjyotiroy25@gmail.com"
+  },
+  {
+    "id": "msg-1794636671194",
+    "timestamp": "2026-11-14 11:41:11",
+    "type": "Direct Showcase Inquiry",
+    "name": "Gallery Visitor",
+    "contact": "+91 9876543210",
+    "message": "Obsessed with your minimalist visual composition! Are prints available?",
+    "status": "received",
+    "target_recipient": "Jiban Jyoti Roy (@creatmamn)",
+    "target_phone": "7363852502",
+    "target_email": "jibanjyotiroy25@gmail.com"
+  }
+]

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@creatmamn — Minimal Photography Showcase | Jiban Jyoti Roy</title>
+  <meta name="description" content="Visual portfolio and photography showcase by @creatmamn (Jiban Jyoti Roy). Discover best masterworks and curated visual archives.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css?v=2.2">
+</head>
+<body>
+
+  <!-- Top Announcement Bar / Instagram Highlight -->
+  <div class="top-bar">
+    <div class="top-bar-content">
+      <span class="live-indicator"></span>
+      <span class="top-bar-text">Official Portfolio & Archives of <strong>@creatmamn</strong></span>
+      <a href="https://www.instagram.com/creatmamn?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="top-bar-link">
+        <svg class="ig-icon-sm" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+        Follow on Instagram ↗
+      </a>
+      <button class="top-bar-share-btn" id="share-ig-top-btn" title="Copy Instagram Profile Link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-inline">
+          <circle cx="18" cy="5" r="3"></circle>
+          <circle cx="6" cy="12" r="3"></circle>
+          <circle cx="18" cy="19" r="3"></circle>
+          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+        </svg>
+        Share
+      </button>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#hero" class="brand">
+        <span class="brand-handle">@creatmamn</span>
+        <span class="brand-divider">/</span>
+        <span class="brand-name">Jiban Jyoti Roy</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="#best-showcase" class="nav-link">Masterworks</a>
+        <a href="#another-galleries" class="nav-link">Archives & Series</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact / SMS</a>
+        <a href="https://jibanjyotiroy-web.vercel.app" target="_blank" rel="noopener noreferrer" class="nav-link nav-external" title="Visit Personal Portfolio">Portfolio ↗</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://www.instagram.com/creatmamn?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="ig-pill-btn">
+          <svg class="ig-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          <span>@creatmamn</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-container">
+      <div class="hero-meta-badge">
+        <span class="hero-tag">FINE ART PHOTOGRAPHY</span>
+        <span class="hero-dot"></span>
+        <span class="hero-subtag">MINIMALIST ARCHIVES</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="title-line">THE VISUAL WORLD OF</span>
+        <span class="title-line title-emphasis">@CREATMAMN</span>
+      </h1>
+
+      <p class="hero-description">
+        Light, shadow, atmosphere, and raw fleeting moments distilled into timeless frames.
+        An curated retrospective by <strong>Jiban Jyoti Roy</strong>.
+      </p>
+
+      <div class="hero-cta-group">
+        <!-- Top Priority Instagram Link -->
+        <a href="https://www.instagram.com/creatmamn?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="btn btn-ig-primary">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          Follow @creatmamn
+        </a>
+
+        <button class="btn btn-outline" id="copy-ig-btn">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+          </svg>
+          Share Profile Link
+        </button>
+
+        <a href="#best-showcase" class="btn btn-ghost">
+          Explore Best Photos ↓
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-num">22</span>
+          <span class="stat-label">Best Masterworks</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">40</span>
+          <span class="stat-label">Archive Frames</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">04</span>
+          <span class="stat-label">Curated Series</span>
+        </div>
+        <div class="stat-card highlight">
+          <span class="stat-num">@creatmamn</span>
+          <span class="stat-label">Instagram Channel</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Best Photos Showcase (Dynamic Presentation) -->
+  <section id="best-showcase" class="section showcase-section">
+    <div class="section-header">
+      <div class="section-title-wrap">
+        <span class="eyebrow">FEATURED RETROSPECTIVE</span>
+        <h2 class="section-title">Best Photos of All Time</h2>
+        <p class="section-subtitle">22 defining captures presented in an interactive, dynamic cinematic theatre.</p>
+      </div>
+
+      <!-- View Switcher -->
+      <div class="view-controls">
+        <button class="view-btn active" id="view-mode-cinema" data-mode="cinema">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-inline">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+            <line x1="8" y1="21" x2="16" y2="21"></line>
+            <line x1="12" y1="17" x2="12" y2="21"></line>
+          </svg>
+          Cinema Spotlight
+        </button>
+        <button class="view-btn" id="view-mode-masonry" data-mode="masonry">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-inline">
+            <rect x="3" y="3" width="7" height="9"></rect>
+            <rect x="14" y="3" width="7" height="5"></rect>
+            <rect x="14" y="12" width="7" height="9"></rect>
+            <rect x="3" y="16" width="7" height="5"></rect>
+          </svg>
+          Masonry Flow
+        </button>
+      </div>
+    </div>
+
+    <!-- Cinema Spotlight View -->
+    <div class="cinema-spotlight" id="cinema-container">
+      <div class="cinema-stage">
+        <div class="cinema-photo-wrap" id="cinema-frame">
+          <div class="cinema-img-overlay"></div>
+          <img id="cinema-img" src="" alt="Best photo masterwork" class="cinema-img">
+          
+          <!-- Floating Image Badges -->
+          <div class="cinema-meta-pill top-left">
+            <span id="cinema-counter">01 / 22</span>
+          </div>
+          <div class="cinema-meta-pill top-right">
+            <span id="cinema-orientation">PORTRAIT</span>
+            <span class="pill-dot"></span>
+            <span id="cinema-ext">JPEG</span>
+          </div>
+
+          <!-- Bottom Stage Caption & Expand -->
+          <div class="cinema-caption-bar">
+            <div class="caption-text-group">
+              <h3 id="cinema-title" class="caption-title">Masterwork #01</h3>
+              <p class="caption-sub">Curated from Best Photos of All Time • Captured by @creatmamn</p>
+            </div>
+            <button class="expand-btn" id="cinema-expand-btn" title="View Fullscreen & High-Res">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <polyline points="9 21 3 21 3 15"></polyline>
+                <line x1="21" y1="3" x2="14" y2="10"></line>
+                <line x1="3" y1="21" x2="10" y2="14"></line>
+              </svg>
+              <span>Expand</span>
+            </button>
+          </div>
+
+          <!-- Stage Navigation Arrows -->
+          <button class="cinema-nav-btn prev" id="cinema-prev" aria-label="Previous photo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+          <button class="cinema-nav-btn next" id="cinema-next" aria-label="Next photo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Cinema Progress & Play Controls -->
+        <div class="cinema-toolbar">
+          <div class="toolbar-left">
+            <button class="control-btn" id="cinema-play-btn" title="Toggle Auto-Play">
+              <svg id="play-icon" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              <svg id="pause-icon" viewBox="0 0 24 24" fill="currentColor" style="display:none;">
+                <rect x="6" y="4" width="4" height="16"></rect>
+                <rect x="14" y="4" width="4" height="16"></rect>
+              </svg>
+              <span id="play-label">Play Slide</span>
+            </button>
+            <span class="toolbar-hint">Press <kbd>←</kbd> <kbd>→</kbd> or swipe</span>
+          </div>
+
+          <div class="cinema-progress-track">
+            <div class="cinema-progress-fill" id="cinema-progress"></div>
+          </div>
+
+          <div class="toolbar-right">
+            <a href="https://www.instagram.com/creatmamn?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="share-mini-link">
+              <svg class="ig-icon-xs" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+              View on Instagram
+            </a>
+          </div>
+        </div>
+
+        <!-- Filmstrip Scrubber -->
+        <div class="filmstrip-wrapper">
+          <div class="filmstrip-label">
+            <span>FILMSTRIP SCRUBBER</span>
+            <span class="filmstrip-count">22 FRAMES</span>
+          </div>
+          <div class="filmstrip-scroll" id="filmstrip-container">
+            <!-- Dynamically populated thumbnails -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Best Photos Masonry Flow (Alternative View) -->
+    <div class="best-masonry-flow" id="masonry-container" style="display: none;">
+      <div class="masonry-columns" id="best-masonry-grid">
+        <!-- Dynamically rendered best photos grid -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram Spotlight Strip / Divider -->
+  <section class="ig-banner-section">
+    <div class="ig-banner-card">
+      <div class="ig-banner-left">
+        <div class="ig-avatar-ring">
+          <svg class="ig-avatar-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+        </div>
+        <div class="ig-banner-text">
+          <span class="ig-tag">TOP PRIORITY DESTINATION</span>
+          <h3 class="ig-handle-heading">@creatmamn on Instagram</h3>
+          <p class="ig-subtext">Follow for daily stories, ongoing series drops, BTS, and latest photographic visual essays.</p>
+        </div>
+      </div>
+      <div class="ig-banner-actions">
+        <a href="https://www.instagram.com/creatmamn?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="btn btn-ig-primary">
+          Open Instagram Profile ↗
+        </a>
+        <button class="btn btn-outline" id="banner-share-ig">
+          Copy Link
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Another Photographies Galleries -->
+  <section id="another-galleries" class="section another-section">
+    <div class="section-header">
+      <div class="section-title-wrap">
+        <span class="eyebrow">CURATED ARCHIVES</span>
+        <h2 class="section-title">Another Photographies</h2>
+        <p class="section-subtitle">40 selected captures organized into minimal thematic galleries. Exploring light, forms, streets, and silences.</p>
+      </div>
+
+      <div class="gallery-filters">
+        <!-- Series Tabs -->
+        <div class="series-tabs" id="series-tabs">
+          <button class="series-tab active" data-series="all">All Archives <span class="tab-badge">40</span></button>
+          <button class="series-tab" data-series="series-1">Monochrome & Shadows <span class="tab-badge">10</span></button>
+          <button class="series-tab" data-series="series-2">Urban & Streets <span class="tab-badge">10</span></button>
+          <button class="series-tab" data-series="series-3">Atmospheric Frames <span class="tab-badge">10</span></button>
+          <button class="series-tab" data-series="series-4">Silent Horizons <span class="tab-badge">10</span></button>
+        </div>
+
+        <!-- Orientation Filter & Density -->
+        <div class="filter-actions">
+          <select id="orientation-filter" class="custom-select">
+            <option value="all">All Orientations</option>
+            <option value="portrait">Portrait</option>
+            <option value="landscape">Landscape</option>
+            <option value="square">Square</option>
+          </select>
+          <div class="density-group">
+            <button class="density-btn" data-cols="3" title="3 Columns View">3 Col</button>
+            <button class="density-btn active" data-cols="4" title="4 Columns View">4 Col</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Active Gallery Grid -->
+    <div class="gallery-grid cols-4" id="another-grid">
+      <!-- Dynamically filled with photography cards -->
+    </div>
+
+    <div class="gallery-footer-bar">
+      <span id="gallery-counter">Showing 40 of 40 frames</span>
+      <button class="scroll-top-btn" onclick="document.getElementById('another-galleries').scrollIntoView({behavior:'smooth'})">
+        Back to Top ↑
+      </button>
+    </div>
+  </section>
+
+  <!-- About / Artist Note Section -->
+  <section id="about" class="section about-section">
+    <div class="about-grid">
+      <div class="about-lead">
+        <span class="eyebrow">ABOUT THE ARTIST</span>
+        <h2 class="about-title">Visual Chronicles by Jiban Jyoti Roy</h2>
+        <p class="about-bio">
+          Based behind the handle <strong>@creatmamn</strong>, my photography is dedicated to finding poetry within geometry, fleeting illumination, and the quiet spaces of urban and human existence.
+        </p>
+        <p class="about-bio secondary">
+          From high-contrast monochrome studies to ambient daylight textures, each image represents a conscious pause in time.
+        </p>
+
+        <div class="contact-badges-list">
+          <div class="contact-badge-item">
+            <span class="badge-label">Instagram</span>
+            <a href="https://www.instagram.com/creatmamn?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="badge-val">@creatmamn ↗</a>
+          </div>
+          <div class="contact-badge-item">
+            <span class="badge-label">Portfolio</span>
+            <a href="https://jibanjyotiroy-web.vercel.app" target="_blank" rel="noopener noreferrer" class="badge-val highlight-portfolio">jibanjyotiroy-web.vercel.app ↗</a>
+          </div>
+          <div class="contact-badge-item">
+            <span class="badge-label">Direct Phone</span>
+            <a href="tel:+917363852502" class="badge-val">+91 73638 52502</a>
+          </div>
+          <div class="contact-badge-item">
+            <span class="badge-label">Email</span>
+            <a href="mailto:jibanjyotiroy25@gmail.com" class="badge-val">jibanjyotiroy25@gmail.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <div class="about-card-inner">
+          <span class="card-tag">CREATIVE PHILOSOPHY</span>
+          <blockquote class="artist-quote">
+            “Photography is the art of seeing what remains invisible until you stop and look without expectation.”
+          </blockquote>
+          <div class="artist-signature">— Jiban Jyoti Roy (@creatmamn)</div>
+          
+          <div class="about-quick-links">
+            <a href="https://jibanjyotiroy-web.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-portfolio">
+              Portfolio Website ↗
+            </a>
+            <a href="https://www.instagram.com/creatmamn?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+              Instagram ↗
+            </a>
+            <a href="https://wa.me/917363852502" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+              WhatsApp ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Direct SMS Section (No Email Redirect) -->
+  <section id="contact" class="section contact-section">
+    <div class="contact-card-container">
+      <div class="contact-header-wrap">
+        <span class="eyebrow">INSTANT MESSAGING & INQUIRIES</span>
+        <h2 class="section-title">Send a Message or Direct SMS</h2>
+        <p class="contact-guarantee">
+          <strong>Direct Delivery Guarantee:</strong> When you enter text and click Send, your message is transferred directly into Jiban’s live showcase system without redirecting you to any email client or opening email apps.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Direct Form -->
+        <div class="contact-form-pane">
+          <form id="contact-form" class="minimal-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="sender-name">Your Name / Handle</label>
+                <input type="text" id="sender-name" name="name" placeholder="e.g. Alex" required>
+              </div>
+              <div class="form-group">
+                <label for="sender-contact">Your Phone or Contact (Optional)</label>
+                <input type="text" id="sender-contact" name="contact" placeholder="+91 ... or @handle">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="sender-message">Message / SMS Text <span class="required">*</span></label>
+              <textarea id="sender-message" name="message" rows="4" placeholder="Write your message, photo licensing inquiry, or direct note here..." required></textarea>
+            </div>
+
+            <div class="form-button-cluster">
+              <!-- Direct API submission (No redirect) -->
+              <button type="submit" class="btn btn-primary" id="send-direct-btn">
+                <span class="btn-text">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-inline">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                  Send Message Directly
+                </span>
+                <span class="btn-spinner" style="display: none;"></span>
+              </button>
+
+              <!-- Native SMS button (opens SMS app with pre-filled message, NO email redirect) -->
+              <button type="button" class="btn btn-secondary" id="send-native-sms-btn" title="Open native SMS on your device">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-inline">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+                Send as Native SMS (+91 7363852502)
+              </button>
+            </div>
+
+            <!-- Inline Feedback Box -->
+            <div id="form-feedback" class="form-feedback" style="display: none;"></div>
+          </form>
+        </div>
+
+        <!-- Direct Contact Details & Live Inbox Viewer -->
+        <div class="contact-info-pane">
+          <div class="info-block">
+            <span class="info-label">CREATOR PHONE / SMS</span>
+            <div class="info-val-large">
+              <a href="tel:+917363852502">+91 7363852502</a>
+            </div>
+            <p class="info-sub">Direct SMS and calls enabled.</p>
+          </div>
+
+          <div class="info-block">
+            <span class="info-label">GMAIL</span>
+            <div class="info-val-large">
+              <span class="copyable-email" id="copy-email-text" title="Click to copy email">jibanjyotiroy25@gmail.com</span>
+            </div>
+            <p class="info-sub">Available for high-resolution prints & inquiries.</p>
+          </div>
+
+          <div class="info-block">
+            <span class="info-label">TOP PRIORITY INSTAGRAM</span>
+            <div class="info-val-large">
+              <a href="https://www.instagram.com/creatmamn?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="ig-link-large">
+                @creatmamn ↗
+              </a>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <span class="info-label">PORTFOLIO WEBSITE</span>
+            <div class="info-val-large">
+              <a href="https://jibanjyotiroy-web.vercel.app" target="_blank" rel="noopener noreferrer" class="portfolio-link-large">
+                jibanjyotiroy-web.vercel.app ↗
+              </a>
+            </div>
+            <p class="info-sub">Explore my developer projects and personal portfolio.</p>
+          </div>
+
+          <!-- Inbox modal trigger -->
+          <div class="inbox-launcher">
+            <button class="btn btn-sm btn-ghost" id="open-inbox-btn">
+              <span class="inbox-dot"></span>
+              View Live Received Messages (<span id="inbox-count">0</span>)
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">@creatmamn</div>
+          <p class="footer-bio">A minimal photography showcase by Jiban Jyoti Roy.</p>
+        </div>
+
+        <div class="footer-links-group">
+          <span class="footer-group-title">PRIMARY CHANNELS & PORTFOLIO</span>
+          <div class="footer-badges-cluster">
+            <a href="https://www.instagram.com/creatmamn?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="footer-ig-badge">
+              <svg class="ig-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+              Follow @creatmamn ↗
+            </a>
+            <a href="https://jibanjyotiroy-web.vercel.app" target="_blank" rel="noopener noreferrer" class="footer-portfolio-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icon-inline">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              Portfolio: jibanjyotiroy-web.vercel.app ↗
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          © 2026 Jiban Jyoti Roy. All rights reserved. Designed with minimal elegance.
+        </div>
+        <div class="footer-meta">
+          <span>Phone: +91 7363852502</span>
+          <span>•</span>
+          <span>Gmail: jibanjyotiroy25@gmail.com</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Sticky Instagram Shortcut -->
+  <aside class="floating-ig-pill" id="floating-ig">
+    <a href="https://www.instagram.com/creatmamn?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="floating-ig-link" title="Follow @creatmamn on Instagram">
+      <svg class="ig-icon" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+      </svg>
+      <span>Follow @creatmamn</span>
+    </a>
+  </aside>
+
+  <!-- Fullscreen Interactive Lightbox Modal -->
+  <div id="lightbox-modal" class="lightbox-modal" aria-hidden="true">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-dialog">
+      <div class="lightbox-header">
+        <div class="lightbox-info">
+          <span id="lb-counter" class="lb-counter">01 / 60</span>
+          <span class="lb-divider">•</span>
+          <span id="lb-title" class="lb-title">Masterwork Title</span>
+          <span class="lb-divider">•</span>
+          <span id="lb-meta" class="lb-meta">JPEG • 1440 × 1800</span>
+        </div>
+        <div class="lightbox-actions">
+          <a id="lb-ig-link" href="https://www.instagram.com/creatmamn?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="lb-btn" title="View on Instagram">
+            <svg class="ig-icon-xs" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+            IG Profile
+          </a>
+          <button id="lb-close" class="lb-btn close-btn" title="Close (Esc)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="lightbox-stage">
+        <button class="lb-arrow lb-prev" id="lb-prev" title="Previous (Left Arrow)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+
+        <div class="lb-image-container">
+          <img id="lb-image" src="" alt="Enlarged photograph" class="lb-img">
+        </div>
+
+        <button class="lb-arrow lb-next" id="lb-next" title="Next (Right Arrow)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+
+      <div class="lightbox-footer">
+        <span class="lb-tip">Use <kbd>←</kbd> <kbd>→</kbd> arrow keys to navigate • <kbd>ESC</kbd> to exit</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Messages Inbox Modal (Real-time texts receiver) -->
+  <div id="inbox-modal" class="inbox-modal" aria-hidden="true">
+    <div class="inbox-backdrop" id="inbox-backdrop"></div>
+    <div class="inbox-dialog">
+      <div class="inbox-header">
+        <div class="inbox-title-wrap">
+          <span class="live-dot"></span>
+          <h3>Live Received Messages & Texts</h3>
+        </div>
+        <button id="inbox-close" class="lb-btn close-btn">✕</button>
+      </div>
+      <div class="inbox-body" id="inbox-list">
+        <!-- Rendered messages -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="/js/app.js?v=2.1"></script>
+</body>
+</html>
